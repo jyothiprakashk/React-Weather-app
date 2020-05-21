@@ -52,7 +52,7 @@ span {
 h1 {
   text-align: center;
     color: white;
-    font-size:41px;
+    font-size:33px;
     font-family: monospace;
 }
 @media screen and (max-width:800px) {
@@ -70,13 +70,14 @@ h1 {
 }
 .weather {
   display: flex;
-  font-size: 58px;
+  /* font-size: 58px; */
   justify-content: center;
-  margin: auto;
+  /* margin: auto; */
 
       margin-top: 10px;
 }
 i {
-  margin-top: 25px;
+  margin-top: 22px;
   margin-right: 10px;
+  font-size: 40px;
 }

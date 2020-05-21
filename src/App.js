@@ -35,7 +35,7 @@ function App() {
   const data = [];
   const dumydata = [];
   if (description.Temp > 0) {
-    const tempdata = Math.floor(309 - 273.15);
+    const tempdata = Math.floor(description.Temp - 273.15);
     data.push(tempdata);
   } else {
     dumydata.push("error");
