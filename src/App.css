@@ -68,3 +68,15 @@ h1 {
     margin-right: 1px;
   }
 }
+.weather {
+  display: flex;
+  font-size: 58px;
+  justify-content: center;
+  margin: auto;
+
+      margin-top: 10px;
+}
+i {
+  margin-top: 25px;
+  margin-right: 10px;
+}
