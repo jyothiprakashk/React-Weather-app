@@ -14,7 +14,6 @@ function App() {
     axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city},${state} &appid=301d07fe957b22588706806d38ff89d5`)
   .then(res=> {
     const weatherData=res.data
-    console.log(weatherData)
     setDescription({
       country:weatherData.sys.country,
       city:weatherData.name,
@@ -34,7 +33,6 @@ function App() {
   }else {
     console.log("")
   }
-  console.log(data)
   
   return (
     <div className="main">

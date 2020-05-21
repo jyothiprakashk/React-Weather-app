@@ -1,6 +1,8 @@
 .main {
   background: -webkit-gradient(linear,left top,right top,from(#e67e22),to(#e74c3c));
-  height: auto
+  height: 100vh;
+  width: 100%;
+  margin-top: -27px;
 }
 .second {
   width: 59%;
@@ -32,7 +34,7 @@ input {
 .details p {
   color: #f16051;
     border-bottom: 2px solid hsla(0,0%,100%,.06);
-    padding: 20px 0;
+    padding: 17px 0;
     font-weight: 400;
     font-size: 20px;
 }
@@ -52,4 +54,17 @@ h1 {
     color: white;
     font-size:41px;
     font-family: monospace;
+}
+@media screen and (max-width:800px) {
+  .second {
+    width: auto;
+  }
+  .second form {
+    display: flex;
+    flex-direction: column;
+  }
+  .second input {
+    width: 94%;
+    margin-right: 1px;
+  }
 }
