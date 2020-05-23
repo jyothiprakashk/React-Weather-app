@@ -34,7 +34,7 @@ input {
 .details p {
   color: #f16051;
     border-bottom: 2px solid hsla(0,0%,100%,.06);
-    padding: 17px 0;
+    padding: 11px 0;
     font-weight: 400;
     font-size: 20px;
 }
@@ -80,4 +80,9 @@ i {
   margin-top: 22px;
   margin-right: 10px;
   font-size: 40px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
 }

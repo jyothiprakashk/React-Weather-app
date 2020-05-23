@@ -26,6 +26,7 @@ function App() {
           humidity: weatherData.main.humidity,
           description: weatherData.weather[0].description,
           wind: weatherData.wind.speed,
+          icon: weatherData.weather[0].icon,
         });
       })
       .catch(() => {
@@ -72,6 +73,7 @@ function App() {
           description={description}
           wind={description.wind}
           temp={data}
+          icon={description.icon}
         />
       </div>
     </div>
